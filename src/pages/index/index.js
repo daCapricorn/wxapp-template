@@ -1,4 +1,3 @@
-import { createPage } from '../../utils';
 import Base from '../base';
 
 class Home extends Base {
@@ -17,4 +16,4 @@ class Home extends Base {
   }
 }
 
-createPage(Home);
+Home.newPage();

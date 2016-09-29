@@ -1,4 +1,10 @@
+import { createPage } from '../utils';
+
 export default class Base {
+  static newPage() {
+    createPage(this);
+  }
+
   onLoad() {
     console.debug('onLoad');
   }
